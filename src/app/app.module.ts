@@ -8,6 +8,9 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
 import { SocialMediaListComponent } from './components/social-media-list/social-media-list.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { EducationComponent } from './components/education/education.component';
+import { ExperienceItemComponent } from './components/experience-item/experience-item.component';
+import { EducationItemComponent } from './components/education-item/education-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ExperienceComponent } from './components/experience/experience.componen
     SocialMediaComponent,
     SocialMediaListComponent,
     ProfileComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    EducationComponent,
+    ExperienceItemComponent,
+    EducationItemComponent
     ],
   imports: [
     BrowserModule,

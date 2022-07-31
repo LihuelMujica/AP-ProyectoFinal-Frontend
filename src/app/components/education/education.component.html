@@ -1,8 +1,9 @@
 <article class="container">
   <div class="card mt-2  pe-2 ps-2">
+
       <div class="row  m-3 pt-2 d-flex align-items-center ">
           <div class="col-10  p-0 m-0 ">
-              <h3 class="p-0 m-0">Experiencia</h3>
+              <h3 class="p-0 m-0">Educación</h3>
           </div>
           <div class="col-2 p-0 d-flex justify-content-end ">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
@@ -11,8 +12,7 @@
          </div>
       </div>
 
-      <app-experience-item [experience]="experience" *ngFor="let experience of experiences"></app-experience-item>
-
+      <app-education-item [education]="education" *ngFor="let education of educations"></app-education-item>
 
   </div>
 
