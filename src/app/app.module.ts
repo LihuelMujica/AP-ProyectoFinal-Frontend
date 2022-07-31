@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { SocialMediaListComponent } from './components/social-media-list/social-media-list.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     SocialMediaComponent,
-    SocialMediaListComponent
+    SocialMediaListComponent,
+    ProfileComponent,
+    ExperienceComponent
     ],
   imports: [
     BrowserModule,
